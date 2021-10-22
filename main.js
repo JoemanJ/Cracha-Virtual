@@ -12,6 +12,7 @@ function getGithubInfo(){
         profilePicture.src = json.avatar_url
         bio.textContent = json.bio
         githubUsername.textContent = json.login
+        Github.href = json.html_url
     })
 }
 
