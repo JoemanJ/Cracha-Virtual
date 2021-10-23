@@ -30,3 +30,19 @@ function changeLinks(){
 
 changeLinks()
 getGithubInfo()
+
+function MudarLogoInstagram(){
+    imgInstagram.src = 'images/InstagramC.svg'
+}
+
+function LogoInstagram(){
+    imgInstagram.src = 'images/Instagram.svg'
+}
+
+function MudarLogoDiscord(){
+    imgDiscord.src = 'images/DiscordappC.svg'
+}
+
+function LogoDiscord(){
+    imgDiscord.src = 'images/Discordapp.svg'
+}
